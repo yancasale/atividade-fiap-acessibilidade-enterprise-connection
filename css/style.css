@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #E9EAEC;
+}
+
+main {
+    background-color: #E9EAEC;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-acessibilidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 38px;
+}
+
+.menu-acessibilidade a {
+    font-weight: 500;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+.menu-acessibilidade li {
+    margin-left: 20px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    background-color: #242582;
+}
+
+.container-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.cabecalho-logo {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+
+.cabecalho-menu {
+    display: flex;
+    height: 33px;
+    color: #000;
+    background-color: #E9EAEC;
+    border-radius: 10px;
+}
+
+.cabecalho-menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-menu a {
+    padding: 7px 15px;
+    color: #000;
+}
+
+.cabecalho-menu a:hover {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#login,
+#informacoes,
+#ajuda {
+    margin-right: 5px;
+}
+
+.container-menu-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.521);
+}
+
+.menu-principal ul,
+a {
+    color: #000;
+    display: flex;
+    font-size: 17px;
+}
+
+.menu-principal i {
+    margin-right: 5px;
+}
+
+.menu-principal li {
+    padding: 15px 15px;
+}
+
+.menu-principal a:hover {
+    color: #D60A36;
+    font-weight: 600;
+}
+
+#hospedagem {
+    border-bottom: 2px solid #D60A36 ;
+}
+
+#hospedagem a {
+    color: #D60A36;
+    font-weight: 900;
+}
+
+.container-hospedagem {
+    width: 100%;
+    height: 240px;
+    padding: 20px;
+    background-color: #24268242;
+}
+
+.buscar-hoteis {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 13px;
+    background-color: #2F2FA2;
+}
+
+.buscar-hoteis h2 {
+    width: 88%;
+    height: 30px;
+    padding-top: 25px;
+    margin: 0px auto;
+    color: #fff;
+
+}
+
+.container-input {
+    display: flex;
+}
+
+.input-cidade {
+    display: flex;
+    width: 90%;
+    padding-top: 55px;
+    margin: 0 auto;
+}
+
+.input-cidade input {
+    width: 40%;
+    padding: 10px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+.input-cidade button {
+    width: 20%;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #D60A36;
+}
+
+.container-encontre-hotel {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 660px;
+    margin: 0 auto;
+}
+
+.titulo-hotel {
+    width: 100%;
+    margin: 60px auto;
+}
+
+.container-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 23%;
+    height: 450px;
+    border-radius: 20px;
+    border: 2px solid #2f2fa218;
+}
+
+.box img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.box h3 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #000;
+}
+
+.link-acomodações {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 5px 10px;
+    margin: 50px auto;
+    color: #fff;
+    background-color: #D60A36;
+    border-radius: 30px;
+}
+
+.box p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    font-size: 0.8em;
+    color: #fff;
+    background-color: #242582;
+}
+
+/* media queries */
+
+@media (max-width: 1567px) {
+
+    .container-encontre-hotel {
+         height: 1200px;
+    }
+
+    .container-box {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 29%;
+        height: 450px;
+        border-radius: 20px;
+        border: 2px solid #2f2fa218;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1239px) {
+
+    .container-encontre-hotel {
+         height: 1200px;
+    }
+
+    .container-box {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 35%;
+        height: 450px;
+        border-radius: 20px;
+        border: 2px solid #2f2fa218;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1241px) {
+
+    .buscar-hoteis {
+        width: 80%;
+    }
+
+    .container-encontre-hotel {
+         height: 1200px;
+    }
+
+    .container-box {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 40%;
+        height: 450px;
+        border-radius: 20px;
+        border: 2px solid #2f2fa218;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1025px) {
+
+    .buscar-hoteis {
+        width: 80%;
+    }
+
+    .container-encontre-hotel {
+         height: 1200px;
+    }
+
+    .container-box {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 40%;
+        height: 450px;
+        border-radius: 20px;
+        border: 2px solid #2f2fa218;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 901px) {
+
+    .cabecalho-menu {
+        font-size: 0.8em;
+}
+
+    .buscar-hoteis {
+        width: 80%;
+    }
+
+    .cabecalho-menu {
+        font-size: 0.9em;
+
+    }
+
+    .container-encontre-hotel {
+         height: 1200px;
+    }
+
+    .container-box {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 50%;
+        height: 450px;
+        border-radius: 20px;
+        border: 2px solid #2f2fa218;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 791px) {
+    .cabecalho-menu {
+        font-size: 0.8em;
+}
+
+    .cabecalho-menu {
+        font-size: 0.7em;
+}
+
+}
+
+@media (max-width: 719px) {
+    .menu-principal li {
+        font-size: 0.9em;
+    }
+
+    .cabecalho-menu {
+        font-size: 0.8em;
+}
+
+    .cabecalho-menu {
+        font-size: 0.7em;
+}
+
+.buscar-hoteis {
+    width: 100%;
+}
+
+.link-acomodações {
+    font-size: 0.9em;
+}
+
+}
+
+@media (max-width: 711px) {
+    .cabecalho-menu {
+        font-size: 0.8em;
+}
+
+
+}
