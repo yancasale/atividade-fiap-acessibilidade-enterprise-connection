@@ -6,6 +6,6 @@ Ele pode ser completamente navegado pelo teclado, tentei usar cores que possuam 
 
 Adicionei também alguns atalhos no topo do site que levam o usuário a certos conteúdos da página.
 
-Tentei também deixar o meu código HTML o mais organizado e semântico possível, para que os leitores de tela não tenham nenhum problema, também adicionando textos alternativos as imagens para que os cegos possam entender oque está ali.
+Tentei também deixar o meu código HTML o mais organizado e semântico possível, para que os leitores de tela não tenham nenhum problema, também adicionando textos alternativos as imagens.
 
 
